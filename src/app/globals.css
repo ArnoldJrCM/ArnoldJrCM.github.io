@@ -27,7 +27,7 @@ body {
   margin: 0;
 }
 .wrapper {
-  background: rgb(255, 255, 255);
+  background: rgb(94, 55, 55);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,7 @@ header {
   font-size:x-large;
   width: 100%;
   text-align: left;
+  display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -56,9 +57,20 @@ main {
   flex: 1;
   background: #1d1729;
   justify-items: center;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 10px 50px 10px 50px;
+}
+
+.navbar {
+  flex: 1;
+  justify-items: right;
+}
+.navbuttons {
+  display: flex;
+  justify-items: space-between;
+}
+
+li {
+  padding: 0 20px 0 20px;
 }
 
 footer {

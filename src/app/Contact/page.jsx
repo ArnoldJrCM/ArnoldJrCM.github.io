@@ -1,6 +1,7 @@
 const Contact = () => {
     return (
-        <div>HI</div>
+        <div>Hi thier aedaf
+        </div>
     );
 }
 

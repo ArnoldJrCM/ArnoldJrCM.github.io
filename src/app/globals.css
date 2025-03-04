@@ -45,11 +45,13 @@ body {
   overflow: hidden;
 }
 .wrapper {
+  
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  background: radial-gradient(circle farthest-corner at 2rem 2rem, #d8ceeb, #5c4b79 15%, #251b38 30%, #0c041a 50%);
 }
 
 header {
@@ -71,11 +73,14 @@ main {
   max-width: 100%;
   overflow: scroll;
   scrollbar-width: none;
+  
 }
 
 .maincontent {
   flex: 1;
-  margin: 10rem 3rem .66rem 3rem;
+  margin: 2rem 3rem .66rem 3rem;
+  align-content: center;
+  
   
 }
 
@@ -98,13 +103,13 @@ main {
 
 
 .textlayout {
-  margin-top: 5rem;
   max-width: 32rem;
   min-width: 26rem;
   font-size: 3rem;
   display: flex;
   flex-direction: column;
- 
+  
+  
 }
 .textlayout .resume {
   
@@ -126,6 +131,10 @@ main {
   
   box-shadow: .5rem .5rem .1rem rgb(0, 0, 0);
 }
+
+.textlayout button:hover {
+  background: #0c041a;
+}
 .textlayout .buttonL{
   display: flex;
 }
@@ -135,6 +144,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 .nametext h1 {
   white-space: nowrap;
@@ -202,8 +212,9 @@ main {
 .imglayout {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
 
 }
 footer {
